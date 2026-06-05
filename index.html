@@ -69,10 +69,11 @@
     </div>
 
     <form action = "https://www.youtube.com/results">
-        <input type ="text" placeholder="Song Name" name ="search_query">
+        <label for = "search"> <b>Write the song name: </b></label>
+        <input type ="text" placeholder="Song Name" name ="search_query" id = "search">
         <button type="submit">Search</button>
     </form>
-    <input type="color" placeholder="Color" name="color">
+
     </main>
 
     <footer>
@@ -87,7 +88,11 @@
   
             <h1>Made with &hearts;</h1>
         </ul>
-  
+        <form action = "/device.php">
+            <label for = "feedback"> <b>Feedback:</b></label>
+            <textarea id = "feedback" name = "feedback" placeholder="Enter your feedback here..." rows = "10" cols = "50"></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
     </footer>
     
    
